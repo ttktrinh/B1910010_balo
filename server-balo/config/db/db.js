@@ -5,7 +5,7 @@ dotenv.config()
 
 async function connectDB(){
     
-    const url = 'mongodb+srv://admin:abcd1234@cluster0.syttpp1.mongodb.net/shop?retryWrites=true&w=majority'
+   // const url = 'mongodb+srv://admin:abcd1234@cluster0.syttpp1.mongodb.net/shop?retryWrites=true&w=majority'
     try {
         await mongoose.connect(url, {
             useNewUrlParser: true,
